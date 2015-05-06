@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ASStudent.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    ASStudent *student = [ASStudent alloc];
+    
+    student.study = ASStudentSubjectTypeBiol | ASStudentSubjectTypeMath;
+    
+    
+    NSLog(@"%@", student);
+    
     return YES;
 }
 

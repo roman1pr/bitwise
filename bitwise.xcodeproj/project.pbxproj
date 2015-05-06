@@ -14,6 +14,7 @@
 		308B535D1AFAA7C2002034C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308B535C1AFAA7C2002034C9 /* Images.xcassets */; };
 		308B53601AFAA7C2002034C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 308B535E1AFAA7C2002034C9 /* LaunchScreen.xib */; };
 		308B536C1AFAA7C2002034C9 /* bitwiseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 308B536B1AFAA7C2002034C9 /* bitwiseTests.m */; };
+		308B53761AFAA7D2002034C9 /* ASStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 308B53751AFAA7D2002034C9 /* ASStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		308B53651AFAA7C2002034C9 /* bitwiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bitwiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		308B536A1AFAA7C2002034C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		308B536B1AFAA7C2002034C9 /* bitwiseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bitwiseTests.m; sourceTree = "<group>"; };
+		308B53751AFAA7D2002034C9 /* ASStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASStudent.m; sourceTree = "<group>"; };
+		308B53771AFAA7DE002034C9 /* ASStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASStudent.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		308B534E1AFAA7C2002034C9 /* bitwise */ = {
 			isa = PBXGroup;
 			children = (
+				308B53751AFAA7D2002034C9 /* ASStudent.m */,
+				308B53771AFAA7DE002034C9 /* ASStudent.h */,
 				308B53531AFAA7C2002034C9 /* AppDelegate.h */,
 				308B53541AFAA7C2002034C9 /* AppDelegate.m */,
 				308B53561AFAA7C2002034C9 /* ViewController.h */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				308B53581AFAA7C2002034C9 /* ViewController.m in Sources */,
+				308B53761AFAA7D2002034C9 /* ASStudent.m in Sources */,
 				308B53551AFAA7C2002034C9 /* AppDelegate.m in Sources */,
 				308B53521AFAA7C2002034C9 /* main.m in Sources */,
 			);
